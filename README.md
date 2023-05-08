@@ -51,7 +51,7 @@
 -CRUD 구현
 
 
-#### 김영빈  [KimYoungKong GITHUB LINK](https://github.com/KimYoungKong)
+#### 김영빈(22학번)  [KimYoungKong GITHUB LINK](https://github.com/KimYoungKong)
 -Contributer
 
 -CRUD 구현
