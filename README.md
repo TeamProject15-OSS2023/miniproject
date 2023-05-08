@@ -3,7 +3,6 @@
      <img src= "https://cdn.pixabay.com/photo/2013/07/12/14/53/cart-148964_960_720.png" width="200" height = "200">
      </html>
 - 마트에서 쇼핑을 할 때 장바구니를 관리하는 프로그램
-" "
 
 ## 🛠Made by My Cart
 <html>
@@ -45,7 +44,16 @@
 
 
 ## 💻팀소개 및 팀원이 맡은 역할
+### 팀원
+#### 류찬미(22학번) [chanmi12 GITHUB LINK](https://github.com/chanmi12https://github.com/chanmi12)
+-Repo Owner
 
+-CRUD 구현
+
+#### 김영빈  [KimYoungKong GITHUB LINK](https://github.com/KimYoungKong)
+-Contributer
+
+-CRUD 구현
 
 
 
