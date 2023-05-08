@@ -5,7 +5,10 @@
 
 ## 🛠Made by My Cart
 <html>
-     <img src="https://img.shields.io/badge/C-EAEAEA?style=flat-square&logo=C&logoColor=black"> <img src="https://img.shields.io/badge/html-E34F26?style=flat-square&logo=C&logoColor=white">
+     <body>
+     <img src="https://img.shields.io/badge/C-EAEAEA?style=flat-square&logo=C&logoColor=black">
+     <img src="https://img.shields.io/badge/html-E34F26?style=flat-square&logo=C&logoColor=white">
+     </body>
      </html>
      
   ## 프로그램 내용
