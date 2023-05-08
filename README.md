@@ -2,7 +2,7 @@
 2023OSS team project(team#15)
 
 ## 💻프로그램의 주제
-
+- 마트에서 쇼핑을 할 때 장바구니를 관리하는 프로그램
 
 ## 🛠Made by My Cart
 <html>
