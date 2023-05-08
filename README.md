@@ -5,9 +5,9 @@
 
 ## 🛠Made by My Cart
 <html>
-     <body>
-     <img src="https://img.shields.io/badge/C-EAEAEA?style=flat-square&logo=C&logoColor=black">
-     <img src="https://img.shields.io/badge/html-E34F26?style=flat-square&logo=C&logoColor=white">
+     
+     <h1><img src="https://img.shields.io/badge/C-EAEAEA?style=flat-square&logo=C&logoColor=black">
+     <img src="https://img.shields.io/badge/html-E34F26?style=flat-square&logo=C&logoColor=white"></h1>
      </body>
      </html>
      
