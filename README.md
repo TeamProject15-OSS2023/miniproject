@@ -4,10 +4,9 @@
 ## 💻프로그램의 주제
 
 ## 🛠Made by My Cart
-<html>
-     
-     <h1><img src="https://img.shields.io/badge/C-EAEAEA?style=flat-square&logo=C&logoColor=black">
-     <img src="https://img.shields.io/badge/html-E34F26?style=flat-square&logo=C&logoColor=white"></h1>
+<html>   
+     <<img src="https://img.shields.io/badge/C-EAEAEA?style=flat-square&logo=C&logoColor=black">
+     <img src="https://img.shields.io/badge/html-E34F26?style=flat-square&logo=C&logoColor=white">
      </html>
      
   ## 프로그램 내용
