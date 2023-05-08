@@ -5,6 +5,7 @@
 - 마트에서 쇼핑을 할 때 장바구니를 관리하는 프로그램
 
 
+
 ## 🛠Made by My Cart
 <html>
     <div align="center">
@@ -13,6 +14,7 @@
      <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white">
         </div>
     </html>
+
 
 
 ## 💻My Cart의 주제에 대한 소개
@@ -35,9 +37,14 @@
 -상품들을 알파벳이나 가나다 순서별로 정렬하거나 카테고리 별로 정렬하는 기능
 
 
+
+
 ## 💻개발환경 및 언어
 -git
 -Visual Studio Code
+
+
+
 
 ## 💻팀소개 및 팀원이 맡은 역할
 
