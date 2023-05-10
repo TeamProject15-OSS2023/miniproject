@@ -46,7 +46,7 @@
 
 ## 💻팀소개 및 팀원이 맡은 역할
 ### 팀원
-#### 류찬미(22학번) [chanmi12 GITHUB LINK]([https://github.com/chanmi12https://github.com/chanmi12](https://github.com/chanmi12?tab=repositories))
+#### 류찬미(22학번) [chanmi12 GITHUB LINK](https://github.com/chanmi12?tab=repositories)
 -Repo Owner
 
 -CRUD 구현
