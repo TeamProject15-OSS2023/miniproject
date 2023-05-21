@@ -1,3 +1,6 @@
+#include "manager.h"
+#include "product.h"
+
 void displayProduct(Cart product) {
         printf("  상품명    가격     구역     할인율    할인적용된금액\n");
         printf("%4s %7d원 %7s %5d%% %9d원\n", product.name, product.price, product.area, product.discount, total);
