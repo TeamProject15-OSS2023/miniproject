@@ -1,4 +1,7 @@
 #include "product.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 void displayProducts(Cart cart[], int count); //searchByarea 함수에서 쓰이는 제품 정보 출력
 void displayPrice(Cart product); //상품 목록을 출력
