@@ -1,15 +1,13 @@
-#include "product.h"
-
 void addProduct(Cart cart[], int *count) {
     Cart newProduct;
 
-    printf("상품명은?: ");
+    printf("상품명: ");
     scanf("%s", newProduct.name);
-    printf("가격은?: ");
+    printf("가격: ");
     scanf("%d", &newProduct.price);
-    printf("구역은?: ");
+    printf("구역: ");
     scanf("%s", newProduct.area);
-    printf("할인율은?: ");
+    printf("할인율: ");
     scanf("%d", &newProduct.discount);
 
     cart[*count] = newProduct;
@@ -25,11 +23,11 @@ void updateProduct(Cart cart[], int count) {
     int i;
     for (i = 0; i < count; i++) {
         if (strcmp(cart[i].name, productName) == 0) {
-            printf("새로운 가격은?: ");
+            printf("새로운 가격: ");
             scanf("%d", &cart[i].price);
-            printf("새로운 구역은?: ");
+            printf("새로운 구역: ");
             scanf("%s", cart[i].area);
-            printf("새로운 할인율은?: ");
+            printf("새로운 할인율: ");
             scanf("%d", &cart[i].discount);
 
             printf("상품이 수정되었습니다.\n");
@@ -89,13 +87,3 @@ void loadCartFromFile(Cart cart[], int *count, char *filename) {
     printf("카트 정보를 파일에서 불러왔습니다.\n");
 }
 
-    FILE *file = fopen(filename, "wb");
-    if (file == NULL) {
-        printf("파일을 열 수 없습니다.\n");
-        return;
-    }
-
-    fwrite(cart, sizeof(Cart), count, file);
-    fclose(file);
-    printf("카트 정보를 파일에 저장했습니다.\n");
-}
