@@ -1,5 +1,4 @@
 #include "manager.h"
-#include "product.h"
 
 void displayProduct(Cart product) {
     printf("상품명: %s\n", product.name);
