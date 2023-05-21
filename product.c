@@ -61,6 +61,8 @@ void deleteProduct(Cart cart[], int *count) {
         printf("일치하는 상품을 찾을 수 없습니다.\n");
     }
 }
+
+
 void saveCartToFile(Cart cart[], int count, char *filename) {
     FILE *file = fopen(filename, "wb");
     if (file == NULL) {
@@ -72,6 +74,7 @@ void saveCartToFile(Cart cart[], int count, char *filename) {
     fclose(file);
     printf("카트 정보를 파일에 저장했습니다.\n");
 }
+
 void loadCartFromFile(Cart cart[], int *count, char *filename) {
     FILE *file = fopen(filename, "rb");
     if (file == NULL) {
