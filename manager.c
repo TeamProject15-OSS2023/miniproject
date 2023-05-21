@@ -2,8 +2,10 @@
 #include "product.h"
 
 void displayProduct(Cart product) {
-        printf("  상품명    가격     구역     할인율    할인적용된금액\n");
-        printf("%4s %7d원 %7s %5d%% %9d원\n", product.name, product.price, product.area, product.discount, total);
+    printf("상품명: %s\n", product.name);
+    printf("가격: %d\n", product.price);
+    printf("구역: %s\n", product.area);
+    printf("할인율: %d\n", product.discount);
 }
 
 void displayPrice(Cart product){
@@ -24,7 +26,6 @@ void displayProducts(Cart cart[], int count) {
     }
     printf("==============================\n");
 }
-
 void searchByArea(Cart cart[], int count, char *searchArea) {
     int found = 0;
 
@@ -65,3 +66,4 @@ int calculateTotalPrice(Cart cart[], int count) {
 
     return totalPrice;
 }
+
