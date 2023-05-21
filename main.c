@@ -1,6 +1,4 @@
 #include "manager.h"
-#include "product.h"
-
 int main() {
     Cart cart[100];
     int count = 0;
