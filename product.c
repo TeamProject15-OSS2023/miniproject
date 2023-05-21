@@ -89,7 +89,6 @@ void loadCartFromFile(Cart cart[], int *count, char *filename) {
     printf("카트 정보를 파일에서 불러왔습니다.\n");
 }
 
-oss_22200256@walab-HGU:~/miniproject$ vim product.c
     FILE *file = fopen(filename, "wb");
     if (file == NULL) {
         printf("파일을 열 수 없습니다.\n");
@@ -99,16 +98,4 @@ oss_22200256@walab-HGU:~/miniproject$ vim product.c
     fwrite(cart, sizeof(Cart), count, file);
     fclose(file);
     printf("카트 정보를 파일에 저장했습니다.\n");
-}
-
-void loadCartFromFile(Cart cart[], int *count, char *filename) {
-    FILE *file = fopen(filename, "rb");
-    if (file == NULL) {
-        printf("파일을 열 수 없습니다.\n");
-        return;
-    }
-
-    *count = fread(cart, sizeof(Cart), *count, file);
-    fclose(file);
-    printf("카트 정보를 파일에서 불러왔습니다.\n");
 }
