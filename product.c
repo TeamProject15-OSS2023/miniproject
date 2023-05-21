@@ -1,3 +1,4 @@
+#include "product.h"
 void addProduct(Cart cart[], int *count) {
     Cart newProduct;
 
