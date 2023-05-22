@@ -1,10 +1,8 @@
 #include "manager.h"
 
 void displayProduct(Cart product) {
-    printf("상품명: %s\n", product.name);
-    printf("가격: %d\n", product.price);
-    printf("구역: %s\n", product.area);
-    printf("할인율: %d\n", product.discount);
+	int total = product.price - (product.price * ((0.01)*product.discount));
+    printf("상품명: %s  가격: %d  할인적용된금액: %d\n", product.name,product.price, total);
 }
 
 void displayPrice(Cart product){
