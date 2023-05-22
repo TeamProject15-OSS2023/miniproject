@@ -35,7 +35,26 @@
 
 
 ## 💻My Cart CRUD
-> 개발 진행 후 추가 예정
+~~~C
+typedef struct{
+        char name[100];
+        int price;
+        char area[100];
+        int discount;
+}Cart;
+
+void addProduct(Cart cart[], int *count); //상품 추가
+void updateProduct(Cart cart[], int count); //상품 수정
+void deleteProduct(Cart cart[], int *count); //상품 삭제
+void saveCartToFile(Cart cart[], int count, char *filename); //파일 저장
+void loadCartFromFile(Cart cart[], int *count, char *filename); //파일을  불러옴
+void displayProducts(Cart cart[], int count); //searchByarea 함수에서 쓰이는 제품 정보 출력
+void displayPrice(Cart product); //상품 목록을 출력
+void displayProduct(Cart product); //상품명과 가격을 출력
+void searchByArea(Cart cart[], int count, char *searchArea); //특정 구역의 모든 상품 출력
+void searchByName(Cart cart[], int count, char *product); //상품의 이름으로 가격 검색
+int calculateTotalPrice(Cart cart[], int count); //모든 상품의 총금액 계산
+~~~
 
 ## 💻개발환경 및 언어
 -git
